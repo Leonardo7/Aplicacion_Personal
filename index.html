@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplicaci&oacute;n Web Personal</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Leonardo Fabian Anaya Reyes">
+        <meta name="keywords" content="personal, biograf&iacute;a, pasatiempos, visitas, peliculas, musica">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Agregamos Referencias de Bootstrap: -->
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap-grid.min.css">
+
+        <!-- Agregamos Referencias de SweetAlert2: -->
+        <link rel="stylesheet" href="style/sweetralert2/sweetalert2.min.css">
+    </head>
+    <body>
+        <div class="p-3 mb-2 bg-secondary text-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+                <div class="container-fluid">
+                    <h1 class="navbar-brand">Inicio</h1>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="pasatiempos.html">Pasatiempos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="musica.html">M&uacute;sica</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="peliculas_favoritas.html">Peliculas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/img/futbol_1.jpg" class="d-block w-100" alt="Futbol" height="650">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/img/cuphead.jpg" class="d-block w-100" alt="VideoJuegos" height="650">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/img/guerra.jpg" class="d-block w-100" alt="Guerra" height="650">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/img/islandia.jpg" class="d-block w-100" alt="Islandia" height="650">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/img/musica.jpg" class="d-block w-100" alt="M&uacute;sica" height="650">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/img/peliculas.jpg" class="d-block w-100" alt="Pelicula" height="650">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-10">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="media/img/foto.png" alt="Fabian" width="80" height="100"/>
+                                    </div>
+                                    <div class="col-10">
+                                        <h1>Bienvenido a Mi P&aacute;gina Web Personal</h1>
+                                        <h2 class="mt-2">Acerca de Mi:</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p>
+                                            Nac&iacute; el 18 de abril del 2002 en la Ciudad de Le&oacute;n Guanajuato en el hospital medica Campestre un d&iacute;a jueves, con peso de 2,400 kg con 55 cm de altura.
+                                            Mis madre es Myriam Rosangel Reyes Gonz&aacute;lez quien trabajaba de gerente en Vita M&eacute;dica y mi padre Carlos Omar Anaya Reyes quien sigue siendo maestro de finanzas.
+                                            Mi educación comenz&oacute; en el preescolar <strong>"Mi Libro M&aacute;gico"</strong> en el año 2006 y termin&oacute; en el año 2008, despu&eacute;s en ese mismo año comenzo mi etapa como <strong>"La Sallista"</strong> en el colegio
+                                            <strong>"La Salle Peñitas"</strong> donde pase 9 años donde estudi&eacute; la primaria y la secundaria en el mismo colegio.
+                                        </p>
+                                        <p class="mt-2">
+                                            En el año 2017 qued&eacute; inscrito en la preparatoria <strong>"La Salle Juan Alonso de Torres"</strong> donde permanec&iacute; por 3 años y fue el momento donde decid&iacute; estudiar la ingenier&iacute;a especializada
+                                            en optomecatronica en la <strong>"Universidad Tecnol&oacute;gica de Le&oacute;n"</strong> y que estudi&eacute; por un año y seis meses, cuando tom&eacute; la decisi&oacute;n de cambiarme de carrera en la misma universidad
+                                            a la carrera de Desarrollo de Software, la cual es la carrera que estoy cursando actualmente.
+                                        </p>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="media/img/imagen6.jpg" alt="La salle Peñitas" width="320" height="300"/>
+                                    </div>
+                                </div>      
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-header text-center">
+                                                <h3>Lugar Favorito a visitar</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-3 text-center">
+                                                        <img class="mt-2" src="media/img/imagen4.jpeg" alt="Islandia" width="220" height="200" />
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <p class="mt-2">Uno de los lugares a los que siempre he querido visitar es <strong>Islandia</strong>, porque es un país de ensueño. 
+                                                            Viajar a <strong>Islandia</strong> significa descubrir una naturaleza incre&iacute;ble que no existe en ning&uacute;n otro pa&iacute;s, un entorno puro, 
+                                                            limpio y tan, tan distinto... Viajar a <strong>Islandia</strong> significa disfrutar de unas vacaciones inolvidables visitando los g&eacute;iseres, volcanes o subiendo a los glaciares.
+                                                        </p>
+                                                        <p class="mt-2">
+                                                            En <strong>Islandia</strong> puedes observar ballenas, montar caballos islandeses <mark>(con su "trote" especial, el caballo islandés puede trotar de 5 maneras diferentes)</mark>, 
+                                                            visitar desiertos de lava y unas de las cascadas m&aacute;s hermosas de Europa, ver las auroras boreales, disfrutar de baños en aguas termales naturales 
+                                                            o pisar tierras vírgenes que todavía no ha pisado ningún turista.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-header text-center">
+                                                <h3>Lugares al que nunca visitar&iacute;a</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-8">
+                                                        <p class="mt-2">
+                                                            A los lugares a los que nunca visitar&iacute;a son los <mark>pa&iacute;ses que se encuentran en conflictos, o si tienen guerras internas
+                                                                o si hay mucha violencia en el pa&iacute;s</mark>; en lo personal <mark>me gustar&iacute;a visitar a todos los pa&iacute;ses para conocer de su cultura,
+                                                                probar su gastronom&iacute;a y visitar lugares importantes de estos pa&iacute;ses</mark>; pero la &uacute;nica condici&oacute;n por la que no visitar&iacute;a
+                                                            alg&uacute;no es, si es un pa&iacute;s conflictivo.
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-4 text-center">
+                                                        <img src="media/img/imagen5.jpeg" alt="Pa&iacute;ses cinflictivos" width="220" height="200" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-header text-center">
+                                                <h2>Objetivos</h2>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <h4 class="text-center">Personales</h4>
+                                                        <ul class="list-group list-group-flush text-center">
+                                                            <li class="list-group-item">Mejorar la salud</li>
+                                                            <li class="list-group-item">Aprender a hablar &Iacute;ngles</li>
+                                                            <li class="list-group-item">Tener buenos resultados en las materias</li>
+                                                            <li class="list-group-item">Terminar mi educación</li>
+                                                            <li class="list-group-item">Viajar a un país desconocido</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4 class="text-center">Profesionales</h4>
+                                                        <ul class="list-group list-group-flush text-center">
+                                                            <li class="list-group-item">Convertirme en líder</li>
+                                                            <li class="list-group-item">Desarrollarme profesionalmente</li>
+                                                            <li class="list-group-item">Encontrar una organización que me permita aplicar todo el aprendizaje adquirido a lo largo de mi proceso de crecimiento</li>
+                                                            <li class="list-group-item">Una de mis metas profesionales es liderar un equipo de trabajo que promueva el desempeño y aprendizaje colaborativo.</li>
+                                                            <li class="list-group-item">Tener estabilidad laboral y consolidarme en una organización que me permita aplicar mis conocimientos y habilidades</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="style/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="style/sweetalert2/sweetalert2.all.min.js"></script>
+    </body>
+</html>

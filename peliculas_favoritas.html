@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplicaci&oacute;n Web Personal</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Leonardo Fabian Anaya Reyes">
+        <meta name="keywords" content="personal, biograf&iacute;a, pasatiempos, visitas, peliculas, musica">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Agregamos Referencias de Bootstrap: -->
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap-grid.min.css">
+
+        <!-- Agregamos Referencias de SweetAlert2: -->
+        <link rel="stylesheet" href="style/sweetralert2/sweetalert2.min.css">
+    </head>
+    <body class="p-3 mb-2 bg-secondary text-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top justify-content-center">
+            <div class="container-fluid">
+                <h1 class="navbar-brand">Peliculas Favoritas</h1>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="musica.html">M&uacute;sica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pasatiempos.html">Pasatiempos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h2>Mis Peliculas Favoritas</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-2">Spider-Man 2</h4>
+                                    <img class="mt-2" src="media/img/spiderman2.jpg" alt="Spider-Man 2" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        Spider-Man 2 | Parker (Tobey Maguire) está en la universidad, sigue enamorado de Mary Jane Watson 
+                                        (Kirsten Dunst) y tiene muchos problemas: su trabajo de héroe no le deja tiempo para estudiar, 
+                                        ni para ganar dinero para pagarse los estudios, ni para ayudar a su tía. Además, a veces pierde sus poderes.
+                                        Desesperado, decide abandonar su carrera de héroe y llevar una vida normal. Sus planes se verán 
+                                        interrumpidos por la aparición de un nuevo súper villano, el Dr. Otto Octavius (Alfred Molina), 
+                                        a quien un accidente transforma en el monstruoso criminal Octopus.
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_1.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">Avengers Infinty War</h4>
+                                    <img class="mt-2" src="media/img/avengers_infinity_war.jpg" alt="Avengers Infinty War" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        La última historia que se cuenta en esta película es la del mismo Thanos. Un Thanos que es bastante 
+                                        diferente al de los cómics. Aquí no se encuentra en una cruzada para ganar el corazón de Lady Death, 
+                                        aquí lo vemos con un sentimiento maltusiano e incluso un poco altruista. Thanos quiere matar a la mitad de 
+                                        la población del universo porque se encuentra sobrepoblado y la mejor forma de evitar la extinción de la 
+                                        vida es limpiar aleatoriamente a una gran población. Siento que Disney no quiso meterse a hablar de 
+                                        entidades cósmicas como la muerte y la jugada le salió bastante bien.
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_2.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">Justice League</h4>
+                                    <img class="mt-2" src="media/img/justice_league.jpg" alt="Justice League" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        El Snyder Cut es una de las películas más esperadas de la historia, 
+                                        sobre todo porque es una que parecía imposible que viera la luz. Sí, esta película no debería existir y 
+                                        sin embargo existe. Se impuso a un estudio que buscaba crear una película familiar, muy alejada a la visión 
+                                        original de Snyder; se impuso a las tragedias familiares del director y se impuso al peor villano del 
+                                        universo cinematográfico de DC Comics: Joss Whedon.
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_3.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">Intertellar</h4>
+                                    <img class="mt-2" src="media/img/interstellar.jpg" alt="Interstellar" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        La película se desarrolla en un futuro no especificado. El mundo está sobrepoblado, y una plaga está 
+                                        destruyendo las cosechas de miles de granjas y creando enormes tormentas de arena. Además, el nivel de 
+                                        nitrógeno en la atmósfera está subiendo, por lo que la humanidad tiene sus días contados. Nuestro 
+                                        protagonista es un ex ingeniero y piloto de la NASA llamado Cooper (Matthew McConaughey), quien vive 
+                                        ahora en una granja junto con su hijo Tom, su hija Murphy (Mackenzie Foy) y su suegro Donald (John Lithgow). Después de una serie de eventos casi-paranormales que involucran una anomalía gravitacional, tanto Cooper como Murphy terminan encontrando una base secreta de la NASA, liderada por el Profesor Brand (Michael Caine) y su hija Amelia (Anne Hathaway).
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_4.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">A Quite Place</h4>
+                                    <img class="mt-2" src="media/img/a_quite_place.jpg" alt="A Quite Place" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        Es el año 2020. El panorama en la Tierra luce completamente desolador. Lo único que sabemos es que 
+                                        han pasado tres meses desde la llegada de unos malvados seres alienígenas, los cuales poseen un sentido 
+                                        auditivo muy avanzado que les permite cazar a sus víctimas con facilidad. Desconocemos el porqué y el cómo 
+                                        llegaron hasta aquí, pero de una cosa estamos seguros: la única regla de supervivencia consiste en guardar 
+                                        silencio. Cualquier ruido, por más pequeño que éste sea, es sinónimo de muerte instantánea. En medio de 
+                                        esta aterradora atmósfera conocemos a los Abbott, una familia que ha hecho lo posible por sobrevivir de la 
+                                        constante amenaza y opresión de dichas creaturas provenientes de otro planeta. 
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_5.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">Smile</h4>
+                                    <img class="mt-2" src="media/img/smile.png" alt="Smile" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        El corto Laura Hasn’t Slept de Parker Finn de 2020 explotó hábilmente la porosa división entre 
+                                        la realidad y el sueño. Una mujer (Caitlin Stasey) le confiesa a su terapeuta que se ha mantenido 
+                                        despierta por miedo al hombre sonriente que la visita en sus sueños. En Smile, ese rostro se transforma 
+                                        en una maldición sobrenatural literal, en parte The Ring, en parte It Follows. La Dra. Rose Cotter (
+                                        Sosie Bacon) lidia con el caso de una paciente (papel que Stasey retoma) que fue la única testigo del 
+                                        suicidio de su profesor. Ella afirma que ahora la atormenta un ente anónimo que “usa las caras de las 
+                                        personas como máscaras” y tiene “la peor sonrisa que he visto en mi vida”.
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_6.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">Spider-Man Into The Spiderverse</h4>
+                                    <img class="mt-2" src="media/img/spiderman_into_spiderverse.jpg" alt="Spider-Man Into The Spiderverse" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        Spider-Man Into the Spider-Verse llegó a romper todos los supuestos que teníamos sobre las películas 
+                                        de éste género. Las películas animadas de personajes de Marvel son malas, las películas de superhéroes 
+                                        protagonizadas por una versión alternativa del personaje no funcionan, el Oscar a mejor animación siempre 
+                                        se lo lleva Disney o que Nicolas Cage sólo arruina sus papeles en las películas de superhéroes. 
+                                        En esta película nada de esto es verdad y creo que eso ya es un buen arranque para sentarse a ver la que 
+                                        quizás sea la película más interesante que nos dió alguno de los universos cinematográficos de Marvel.
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_7.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 text-center">
+                                    <h4 class="mt-4">Puss in Boots</h4>
+                                    <img class="mt-2" src="media/img/puss_in_boots.jpg" alt="Puss in Boots" width="160" height="200"/>
+                                </div>
+                                <div class="col-5">
+                                    <p class="p-1 mt-3">
+                                        Luego de perder su octava y penúltima vida, el miedo se apodera del simpático Puss in Boots, personaje que 
+                                        conocimos por primera vez hace casi dos décadas en la popular secuela de Shrek. La muerte parecía un 
+                                        concepto muy lejano para el intrépido felino, quien ahora contempla cabizbajo su inevitable destino. Sin más 
+                                        remedio que aprovechar al máximo la última oportunidad que le resta, el legendario héroe decide retirarse 
+                                        por completo de su peligroso oficio, dejando atrás su característica capa y espada para mantener un perfil 
+                                        bajo. No obstante, la inesperada llegada de Goldilocks y su familia de osos a la casa de reposo donde éste 
+                                        habita lo llevará a emprender una nueva aventura: encontrar una estrella mágica que posee la facultad de 
+                                        conceder un solo deseo. 
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <video class="mt-4" width="350" height="200" controls>
+                                        <source src="media/video/video_trailer_8.mp4" type="video/mp4" />
+                                    </video>
+                                </div>>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="style/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="style/sweetalert2/sweetalert2.all.min.js"></script>
+    </body>
+</html>
